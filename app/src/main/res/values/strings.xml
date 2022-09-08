@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DevApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_msg">Hi, there! I haven\'t seen you for a long time?</string>
+    <string name="sample_name">Elmer Gonzaga</string>
+    <string name="sample_time">9:01AM</string>
+    <string name="sample_country">BELGIUM</string>
+    <string name="label_name">NAME:</string>
+    <string name="label_phone">PHONE:</string>
+    <string name="label_country">COUNTRY:</string>
+    <string name="sample_numbe">09123123123</string>
+    <string name="label_hobbies">HOBBIES:</string>
+    <string name="advice_of_the_day">GET RANDOM ADVICE OF THE DAY</string>
+    <string name="btn_get_advice">Get Advice</string>
+    <string name="get_advice_by_id">GET AN ADVICE BY ADVICE ID</string>
+    <string name="btn_search_advice_id">SEARCH ADVICE ID</string>
+    <string name="get_advice_by_search">GET ADVICE BY SEARCHED WORD</string>
+    <string name="bmicalc_title">Body Mass Index Calculator</string>
+</resources>

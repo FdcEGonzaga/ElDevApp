@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:layout_marginVertical="1dp"
+    android:background="@color/white"
+    android:elevation="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/bucket_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/bucket_list_image_container"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#282828"
+        android:textSize="18sp"
+        tools:text="1. Title is here" />
+
+    <TextView
+        android:id="@+id/bucket_list_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bucket_list_title"
+        android:layout_marginTop="5dp"
+        android:layout_toStartOf="@id/bucket_list_image_container"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="3"
+        android:textColor="#787878"
+        android:textSize="14sp"
+        tools:text="Description of the title is here...Description of the title is here...Description of the title is here..." />
+
+    <RatingBar
+        android:id="@+id/bucket_list_rating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bucket_list_image_container"
+        android:layout_marginTop="5dp"
+        tools:rating="4.5" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bucket_list_image_container"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/bucket_list_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/places_kerala" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
